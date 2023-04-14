@@ -1,0 +1,82 @@
+.formToodoList{
+    width: 450px;
+    height: 350px;
+    margin-top: 20px;
+    background-color: rgba(12, 45, 56, 0.2);
+    border: 2px solid black;
+    border-radius: 23px;
+    .formToodoList__header{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .formToodoList__type{
+        font-size: 10px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .formToodoList__btn-grup{
+        margin-top: 30px;
+        display: flex;
+        height: 80px;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        .formToodoList__btn-item{
+            border-radius: 8px;
+            width: 120px; 
+            height: 30px;
+            border: none;
+            text-align: center;
+            color: aliceblue;
+            font-size: 10px;
+            cursor: pointer;
+        }
+        .formToodoList__btn-item:nth-child(1){
+            background-color:  rgb(146, 12, 54);
+        }
+
+        .formToodoList__btn-item:nth-child(2){
+            background-color: rgb(35, 193, 17);
+        }
+
+        .formToodoList__btn-item:nth-child(3){
+            background-color: rgb(145, 147, 170);
+        }
+    }
+    .formToodoList__info{
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        .formToodoList__title{
+            width: 200px;
+            height: 20px;
+            margin-right: 25px;
+            outline: none;
+        }
+    
+       .formToodoList__description{
+         width: 190px;
+         height: 100px;
+         outline: none;
+        }
+
+       }
+    }
+
+    .formToodoList__main-btn{
+        display: block;
+        margin: 25px auto;
+        width: 250px;
+        height: 30px;
+        background-color: rgb(3, 81, 50);
+        color: white;
+        font-size: 12px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+

@@ -1,0 +1,41 @@
+.taskBar{
+    width: 600px;
+    border: 2px solid black;
+    background-color: white;
+    .taskBar__filter{
+        height: 50px;
+        button{
+            width: 120px;
+            color:black;
+            height: 50px;
+            cursor: pointer;
+        }
+        button:nth-child(1){
+            background-color: red;
+        }
+        button:nth-child(2){
+            background-color: rgb(35, 193, 17)
+        }
+        button:nth-child(3){
+            background-color:  rgb(145, 147, 170)
+        }
+        button:nth-child(1):hover{
+            background-color: rgb(89, 49, 49);
+        }
+        button:nth-child(2):hover{
+            background-color: rgb(123, 235, 110)
+        }
+        }
+        button:nth-child(3):hover{
+            background-color: rgb(22, 24, 53)
+        }
+        button:nth-child(4):hover{
+            background-color: rgb(96, 96, 96);
+        }
+      
+
+    }
+    .taskBar__panel{
+        border: 2px solid black;
+        border-bottom: none;
+    }

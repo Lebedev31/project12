@@ -1,0 +1,40 @@
+.taskBarItem{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    border-bottom: 2px solid black;
+    h2{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .taskBarItem__descr{
+        width: 250px;
+        text-align: left;
+    }
+
+    .taskBarItem__close{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+    }
+
+    .taskBarItem__close::before,
+    .taskBarItem__close::after{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        top: 24px;
+        left: 10px;
+        background-color: black;
+        transform: rotate(45deg);
+    }
+    .taskBarItem__close::after{
+        transform: rotate(-45deg);
+    }
+}   
